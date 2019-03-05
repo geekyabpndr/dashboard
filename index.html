@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Dashboard</title>
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr"
+        crossorigin="anonymous">
+</head>
+
+<body>
+
+    <!-- Side Navigation-->
+    <div class="sidenav">
+        <h2>GeekyAnts</h2>
+        <label for="main">MAIN</label>
+        <div class="sidenav-component">
+            <ul class="flex-sidenav-ul">
+                <li class="flex-sidenav-item"><i class="fas fa-fw fa-home icon-left"></i><span class="nav-text"><a href="">Dashboard</a></span><span class="icon-right-blue">2</span></li>
+                <li class="flex-sidenav-item"><i class="far fa-fw fa-calendar icon-left"></i><span class="nav-text"><a href="">Calendar</a></span></li>
+                <li class="flex-sidenav-item"><i class="far fa-fw fa-envelope icon-left"></i><span class="nav-text"><a href="">Email</a></span><i class="fa fa-angle-right icon-right"></i></li>
+                <li class="flex-sidenav-item"><i class="fas fa-fw fa-cube icon-left"></i><span class="nav-text"><a href="">UI Elements</a></span><i class="fa fa-angle-right icon-right"></i></li>
+                <li class="flex-sidenav-item"><i class="fab fa-fw fa-wpforms icon-left"></i><span class="nav-text"><a href="">Forms</a></span><span class="icon-right-green">9</span></li>
+                <li class="flex-sidenav-item"><i class="fas fa-fw fa-chart-pie icon-left"></i><span class="nav-text"><a href="">Charts</a></span><i class="fa fa-angle-right icon-right"></i></li>
+                <li class="flex-sidenav-item"><i class="fas fa-fw fa-table icon-left"></i><span class="nav-text"><a href="">Tables</a></span><i class="fa fa-angle-right icon-right"></i></li>
+                <li class="flex-sidenav-item"><i class="far fa-fw fa-grin-beam icon-left"></i><span class="nav-text"><a href="">Icons</a></span><i class="fa fa-angle-right icon-right"></i></li>
+                <li class="flex-sidenav-item"><i class="fas fa-fw fa-map-marker-alt icon-left"></i><span class="nav-text"><a href="">Maps</a></span><span class="icon-right-red">2</span></li>
+            </ul>
+        </div>
+    </div>
+
+    <!-- Main Content -->
+    <div class="main">
+        <!-- Header-->
+        <div class="header">
+            <span class=" menu"><a href=""><i class="fas fa fa-fw fa-bars menu"></i></a></span>
+            <button class="dropbtn">Create<i class="fas fa fa-fw fa-sort-down down-arrow"></i></button>
+            <span style="margin-left: auto;" class="searchContainer">
+                <input type="search" name="searchbox" size="30" placeholder="Search" class="searchbox">
+                <i class="fa fa-fw fa-search searchIcon header-right"></i>
+            </span>
+            <span class="header-right"><span class="header-lang">English</span><i class="fas fa fa-fw fa-angle-down"></i></span>
+            <span class="header-right"><i class="fas fa fa-fw fa-expand"></i></span>
+            <span class="header-right"><i class="far fa fa-fw fa-bell"></i></span>
+            <span class="header-right"><img src="images/image_man.jpg" class="user-logo" /></span>
+
+        </div>
+        <!-- Dashboard -->
+        <div class="dashboard">
+            <p id="title"><b>Dashboard</b><span><button class="dashboard-btn"><i class="fas fa-cog dashboard-btn-icon"></i>Settings</button></span></p>
+            <p class="caption">Welcome to veltrix dashboard</p>
+            <!-- Cards -->
+            <div class="flex-container">
+                <div class="flex-box">
+                    <div>
+                        <div class="card-icon"><i class="fas fa-list-alt"></i></div>
+                        <div class="card-info">
+                            <div class="card-title">ORDERS</div>
+                            <div class="card-number">1,685</div>
+                        </div>
+                        <div>
+                            <div class="float-banner" style="background-color: #3594A0">
+                                <div class="triangle-right"></div>
+                                <span>+ 12%</span>
+                            </div>
+                            <div class="float-banner-arrow">
+                                <span style="color: #3594A0"><i class="fas fa-arrow-up"></i></span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card-link">
+                        <p>Since last month<i class="fas fa-arrow-right card-arrow"></i></p>
+                    </div>
+                </div>
+                <div class="flex-box">
+                    <div>
+                        <div class="card-icon"><i class="fas fa-sticky-note"></i></div>
+                        <div class="card-info">
+                            <div class="card-title">REVENUE</div>
+                            <div class="card-number">52,368</div>
+                        </div>
+                        <div>
+                            <div class="float-banner" style="background-color: #E74658">
+                                <div class="triangle-right"></div>
+                                <span>- 28%</span>
+                            </div>
+                            <div class="float-banner-arrow">
+                                <span style="color: #E74658"><i class="fas fa-arrow-down"></i></span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card-link">
+                        <p>Since last month<i class="fas fa-arrow-right card-arrow"></i></p>
+                    </div>
+                </div>
+                <div class="flex-box">
+                    <div>
+                        <div class="card-icon"><i class="fas fa-pen"></i></div>
+                        <div class="card-info">
+                            <div class="card-title">AVERAGE PRICE</div>
+                            <div class="card-number">15.8</div>
+                        </div>
+                        <div>
+                            <div class="float-banner" style="background-color: #41A4ED">
+                                <div class="triangle-right"></div>
+                                <span>+ 10%</span>
+                            </div>
+                            <div class="float-banner-arrow">
+                                <span style="color: #3594A0"><i class="fas fa-arrow-up"></i></span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card-link">
+                        <p>Since last month<i class="fas fa-arrow-right card-arrow"></i></p>
+                    </div>
+                </div>
+                <div class="flex-box">
+                    <div>
+                        <div class="card-icon"><i class="fas fa-briefcase"></i></div>
+                        <div class="card-info">
+                            <div class="card-title">PRODUCT SOF</div>
+                            <div class="card-number">2436</div>
+                        </div>
+                        <div>
+                            <div class="float-banner" style="background-color: #F5B22F">
+                                <div class="triangle-right"></div>
+                                <span>+ 84%</span>
+                            </div>
+                            <div class="float-banner-arrow">
+                                <span style="color: #3594A0"><i class="fas fa-arrow-up"></i></span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card-link">
+                        <p>Since last month<i class="fas fa-arrow-right card-arrow"></i></p>
+                    </div>
+                </div>
+            </div>
+            <!-- Transaction and Chat-->
+            <div class="flex-container">
+                <div class="transaction">
+                    <p><b>Latest Transaction</b><br></p>
+                    <table id="transaction-table">
+                        <tr id="heading">
+                            <th>(#) Id</th>
+                            <th style="width: 30%;">Name</th>
+                            <!--260px-->
+                            <th>Date</th>
+                            <th>Amount</th>
+                            <th>Status</th>
+                            <th></th>
+                        </tr>
+                        <tr>
+                            <td>#1426</td>
+                            <td><span class="transaction-user"><img src="images/image_adult.jpg" class="user-logo" /><span class="transaction-user-name"> Philip Smead</span></span></td>
+                            <td>15/1/2018</td>
+                            <td>$94</td>
+                            <td><span class="transaction-status-delievered-btn">Delievered</span></td>
+                            <td><button class="transaction-edit-btn">Edit</button></td>
+                        </tr>
+                        <tr>
+                            <td>#1427</td>
+                            <td><span class="transaction-user"><img src="images/image_man.jpg" class="user-logo" /><span class="transaction-user-name"> Brent Shipley</span></span></td>
+                            <td>16/1/2019</td>
+                            <td>$112</td>
+                            <td><span class="transaction-status-pending-btn">Pending</span></td>
+                            <td><button class="transaction-edit-btn">Edit</button></td>
+                        </tr>
+                        <tr>
+                            <td>#1428</td>
+                            <td><span class="transaction-user"><img src="images/image_b&w.jpg" class="user-logo" /><span class="transaction-user-name"> Robert Sitton</span></span></td>
+                            <td>17/1/2018</td>
+                            <td>$116</td>
+                            <td><span class="transaction-status-delievered-btn">Delievered</span></td>
+                            <td><button class="transaction-edit-btn">Edit</button></td>
+                        </tr>
+                        <tr>
+                            <td>#1429</td>
+                            <td><span class="transaction-user"><img src="images/image_specs.jpg" class="user-logo" /><span class="transaction-user-name"> Albert Jackson</span></span></td>
+                            <td>18/1/2019</td>
+                            <td>$104</td>
+                            <td><span class="transaction-status-cancel-btn">Cancel</span></td>
+                            <td><button class="transaction-edit-btn">Edit</button></td>
+                        </tr>
+                        <tr>
+                            <td>#1430</td>
+                            <td><span class="transaction-user"><img src="images/image_girl.jpg" class="user-logo" /><span class="transaction-user-name"> Jack Sparrow</span></span></td>
+                            <td>19/1/2019</td>
+                            <td>$224</td>
+                            <td><span class="transaction-status-delievered-btn">Delievered</span></td>
+                            <td><button class="transaction-edit-btn">Edit</button></td>
+                        </tr>
+                    </table>
+                </div>
+                <div class="chat">
+                    <p><b>Chat</b><br></p>
+                    <div class="chat-box">
+                        <div class="flex-box sender">
+                            <div class="user-time-icon">
+                                <img src="images/image_adult.jpg" class="user-logo" />
+                                <span>10:00</span>
+                            </div>
+                            <span class="message-sender"><span class="message-sender-name">John Doe</span><br>Lorem Ipsum</span>
+                        </div>
+                        <div class="flex-box receiver">
+                            <span class="message-receiver"><span class="message-receiver-name">Smith</span><br>Lorem Ipsum</span>
+                            <div class="user-time-icon">
+                                <img src="images/image_girl.jpg" class="user-logo" />
+                                <span>11:00</span>
+                            </div>
+                        </div>
+                        <div class="flex-box sender">
+                            <div class="user-time-icon">
+                                <img src="images/image_adult.jpg" class="user-logo" />
+                                <span>12:00</span>
+                            </div>
+                            <span class="message-sender"><span class="message-sender-name">John Doe</span><br>Lorem Ipsum</span>
+                        </div>
+                        <div class="flex-box receiver">
+                            <span class="message-receiver"><span class="message-receiver-name">Smith</span><br>Lorem Ipsum</span>
+                            <div class="user-time-icon">
+                                <img src="images/image_girl.jpg" class="user-logo" />
+                                <span>13:00</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="flex-box text-area">
+                        <button id="text-submit-btn">Send</button>
+                        <span><input type="text" name="message" placeholder="Enter your text" class="message-box"></span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
